@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "rules": {
+    "react/jsx-filename-extension": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./webpack.config.js"
+      },
+      "alias": {
+        "map": ["@", "./src"],
+        "extensions": [".ts", ".js", ".jsx", ".json"]
+      }
+    }
+  }
+}
